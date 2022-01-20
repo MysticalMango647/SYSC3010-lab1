@@ -1,7 +1,7 @@
 #3010 W22
 #yunas magsi - 101115159
 
-
+from sense_hat import SenseHat
 from time import sleep
 
 sense = SenseHat()
