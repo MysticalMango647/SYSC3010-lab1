@@ -6,9 +6,7 @@ Write a Channel Feed
 GET https://api.thingspeak.com/update?api_key=T76KD0FQ67S1H970&field1=0
 
 ####Firebase Stuff and info  
-Project name
-SYSC3010Lab3
-Project ID 
-sysc3010lab3
-Project number 
-624758442778
+Project name: SYSC3010Lab3  
+Project ID: sysc3010lab3  
+Project number: 624758442778  
+Web API Key: AIzaSyBmJkp2JwZrf7W664EAwSxtNOJh1rwhLNY  
