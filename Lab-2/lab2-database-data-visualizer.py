@@ -19,7 +19,7 @@ cursor = dbconnect.cursor();
 #execute simple select statement
 cursor.execute('SELECT * FROM temps');
 
-df = pd.DataFrame(cursor.fetchall(), columns = ['id', 'tdate', 'ttime', 'temperature', 'humidity', 'pressure']);
+df = pd.DataFrame(cursor.fetchall(), columns = ['id', 'date', 'time', 'temperature', 'humidity', 'pressure']);
 #print(df);
 fig = make_subplots(specs=[[{"secondary_y": True}]]);
 fig.add_trace(
