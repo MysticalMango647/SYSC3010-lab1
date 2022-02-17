@@ -15,6 +15,17 @@ def main():
     payload = {'field1': temperature,'field2': humidity,'field3': pressure, 'api_key': sendKey}
     #payload = {'field2': humidity, 'api_key': sendKey}
     #payload = {'field3': pressure, 'api_key': sendKey}
+    capture = int(input("enter what data you want to send temp(1), humid(2), press(3): "))
+    
+    if (capture == 1):
+        payload{0}
+        
+    if (capture == 2):
+        payload{1}
+    
+    if (capture == 3):
+        payload{2}
+    
     try:
         # Sends an HTTP GET request
         response = requests.get(url, params=payload)
